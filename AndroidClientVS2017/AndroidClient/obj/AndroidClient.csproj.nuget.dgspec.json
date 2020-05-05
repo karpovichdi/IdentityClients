@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Work\\IdentityModel.OidcClient.Samples-master\\AndroidClientVS2017\\AndroidClient\\AndroidClient.csproj": {}
+  },
+  "projects": {
+    "C:\\Work\\IdentityModel.OidcClient.Samples-master\\AndroidClientVS2017\\AndroidClient\\AndroidClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Work\\IdentityModel.OidcClient.Samples-master\\AndroidClientVS2017\\AndroidClient\\AndroidClient.csproj",
+        "projectName": "AndroidClient",
+        "projectPath": "C:\\Work\\IdentityModel.OidcClient.Samples-master\\AndroidClientVS2017\\AndroidClient\\AndroidClient.csproj",
+        "packagesPath": "C:\\Users\\karpovichdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\IdentityModel.OidcClient.Samples-master\\AndroidClientVS2017\\AndroidClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\karpovichdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "IdentityModel.OidcClient": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
